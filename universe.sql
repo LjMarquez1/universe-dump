@@ -39,8 +39,6 @@ CREATE TABLE comet (
     has_tail BOOLEAN
 );
 
--- Insert data into the tables
-
 INSERT INTO galaxy (name, description, has_life, distance_from_earth)
 VALUES
 ('Milky Way', 'galaxy', true, 0),
